@@ -3,25 +3,32 @@ body{
      
 }
 .elemento {
-    display: flex;
     font-weight: bold;
     align-items: center;
     justify-content: center;
     flex: 5vw 0 0;
     color: black;
     box-sizing: border-box;
-    border-radius: 3px;
+    border-radius: 2.5px;
     margin: 1px;
     text-decoration: none;
-    background-color: aqua;
+    background-color: #ff0055;
+    
+}
+.elementos{
     
 }
  .linha {
     display: flex;
     text-align: center;
-    height: 6vmin;
+    height: 5vmin;
     justify-content: space-around;        
  }
  .elemento:hover{
      background-color: yellow;
+ }
+ .nav-wrapper{
+     background-color: #ca7fb6;
+     text-align: center;
+     margin-bottom: 10%;
  }
