@@ -3,12 +3,13 @@
     font-weight: bold;
     align-items: center;
     justify-content: center;
-    flex: 6vw 0 0;
+    flex: 5vw 0 0;
     color: black;
     box-sizing: border-box;
     border-radius: 3px;
     margin: 1px;
     text-decoration: none;
+    background-color: aqua;
     
 }
  .linha {
@@ -16,4 +17,5 @@
     text-align: center;
     height: 6vmin;
     justify-content: space-around;
+        
  }
