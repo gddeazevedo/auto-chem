@@ -2,7 +2,7 @@ var elementos = document.getElementsByClassName('elemento')
  console.log(elementos)
 
 var busca = {
-	string: {}	
+	elementos: []
 }
 
 //object { 'H', 'H', 'O' }
@@ -14,7 +14,7 @@ function input(elemento){
 
 
 function convertToString(busca){
-	busca.string = input(elementos[0])+input(elementos[0])+input(elementos[33])
-	console.log(busca.string)
+	busca.elementos.push(input(elementos[0]),input(elementos[0]),input(elementos[33]))
+	console.log(busca.elementos)
 }
 convertToString(busca)
