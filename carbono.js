@@ -5,23 +5,23 @@ const input = require('readline-sync')
 class FuncaoOrganica {
   constructor() {
     this.prefixo = {
-      '1': 'met',
-			'2': 'et',
-			'3': 'prop',
-			'4': 'but',
-			'5': 'pent',
-			'6': 'hex',
-			'7': 'hept',
-			'8': 'oct',
-			'9': 'non',
-			'10': 'dec',
+      	'1': 'met',
+	'2': 'et',
+	'3': 'prop',
+	'4': 'but',
+	'5': 'pent',
+	'6': 'hex',
+	'7': 'hept',
+	'8': 'oct',
+	'9': 'non',
+	'10': 'dec',
     }
 
     this.infixo = {
-      'simples': 'an',
-			'dupla': 'en',
-			'tripla': 'in',
-			'duas duplas': 'dien',
+      	'simples': 'an',
+	'dupla': 'en',
+	'tripla': 'in',
+	'duas duplas': 'dien',
     }
 
     this.sufixo = {'hidrocarboneto': 'o',}
