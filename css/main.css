@@ -1,5 +1,10 @@
+@import url("//fonts.googleapis.com/css?family=Roboto:400,100");  
+html{
+  font-size: 17px;
+}
 body {
-    background-color: #515151;
+    background: linear-gradient(90deg, #6638B5 0%, #3B3D7A 100%);   
+    
 }
 
 #nav-wrapper {
@@ -12,24 +17,40 @@ body {
     transform: translateX(-50%);
     /* background-color: aqua; */
     color: aquamarine;
-    width: 95%;
+    width: 100px;
     height: 500px;
 }
 
 #elements {
-    display: inline-block;
-    margin: 10px;
-}
+   
+    height:45px;
+    width: 60px;    
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: rgb(42, 36, 53);
 
-#cc img {
-    max-width: 50px;
-    max-height: 50px;
+    
 }
 
 #scroll-ligacoes {
-    background-color: #333;
-    overflow: auto;
-    white-space: nowrap;
+    background-color: #6638B5;
+    position: relative;
+    top: 180px;
+    border-radius: 20px;
+
+}
+#input{
+    font-size: 35px;
+    font-family: 'Roboto';
+    border: none;
+    width: 300px;
+    height: 50px;
+    position: relative;
+    left: -120px;
+    margin-bottom: 10px;
+    
 }
 
 .list-ligacoes {
@@ -39,13 +60,21 @@ body {
     padding: 14px;
     text-decoration: none;
     flex: 0 0 auto;
+    
 }
 
-#scroll-ligacoes .list-ligacoes img {
+#scroll-ligacoes .list-ligacoes img {    
     max-width: 200px;
+    max-height: 100px;
+    border-radius: 10px;
+    transition: all ease-in-out .2s;
+}
+#scroll-ligacoes .list-ligacoes img:hover {  
+    transform: scale(1.2)  ;
 }
 
 #canvas-screen {
+    border-radius: 10px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
