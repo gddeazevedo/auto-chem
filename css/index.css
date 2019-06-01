@@ -1,0 +1,36 @@
+.flat-menu {
+    position: relative;
+    width: 100%;
+    
+    background: #df7599;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    text-shadow: 0 5px 5px #df7599;
+
+}
+
+.item-menu{
+    position: relative;
+    margin-left: 10%;
+    height:  100%;
+    border-radius: 0px;
+    background-color: #7189bf;
+}
+.item-menu:hover{
+    background-color: #ffc785;
+}
+.item-menu:focus{
+    background-color: #ffc785;
+
+
+}
+li {
+    display: inline-block;
+    list-style: none;
+    opacity: 0.8;
+    
+}
+
+
